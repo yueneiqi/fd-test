@@ -9,7 +9,7 @@ on:
   pull_request:
   push:
     branches:
-      - master
+      - main
     tags:
       - '*'
 
@@ -134,10 +134,10 @@ jobs:
         "$env:USERPROFILE\\.cargo\\bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
 
     - name: Buck2 build
-      run: buck2 build //:fd --target-platform //test/3rd/fd/platforms:${{ matrix.target }}
+      run: buck2 build //:fd --target-platforms //test/3rd/fd/platforms:${{ matrix.target }}
 
     - name: Buck2 test
-      run: buck2 test //... --target-platform //test/3rd/fd/platforms:${{ matrix.target }}
+      run: buck2 test //... --target-platforms //test/3rd/fd/platforms:${{ matrix.target }}
 
   build:
     name: ${{ matrix.job.target }} (${{ matrix.job.os }})
