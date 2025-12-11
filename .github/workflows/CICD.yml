@@ -73,7 +73,7 @@ jobs:
       run: cargo test --locked ${{ env.MSRV_FEATURES }}
 
   buck2:
-    name: b2 ${{ matrix.job.target }} (${{ matrix.job.os }})
+    name: b2
     strategy:
       fail-fast: false
       matrix:
