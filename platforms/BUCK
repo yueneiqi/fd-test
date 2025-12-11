@@ -1,0 +1,78 @@
+platform(
+    name = "aarch64-apple-darwin",
+    constraint_values = [
+        "prelude//cpu/constraints:arm64",
+        "prelude//os/constraints:macos",
+    ],
+    visibility = ["PUBLIC"],
+)
+
+platform(
+    name = "aarch64-pc-windows-msvc",
+    constraint_values = [
+        "prelude//cpu/constraints:arm64",
+        "prelude//os/constraints:windows",
+        "prelude//abi/constraints:msvc",
+    ],
+    visibility = ["PUBLIC"],
+)
+
+platform(
+    name = "aarch64-unknown-linux-gnu",
+    constraint_values = [
+        "prelude//cpu/constraints:arm64",
+        "prelude//os/constraints:linux",
+        "prelude//abi/constraints:gnu",
+    ],
+    visibility = ["PUBLIC"],
+)
+
+platform(
+    name = "i686-pc-windows-msvc",
+    constraint_values = [
+        "prelude//cpu/constraints:x86_32",
+        "prelude//os/constraints:windows",
+        "prelude//abi/constraints:msvc",
+    ],
+    visibility = ["PUBLIC"],
+)
+
+platform(
+    name = "i686-unknown-linux-gnu",
+    constraint_values = [
+        "prelude//cpu/constraints:x86_32",
+        "prelude//os/constraints:linux",
+        "prelude//abi/constraints:gnu",
+    ],
+    visibility = ["PUBLIC"],
+)
+
+platform(
+    name = "x86_64-pc-windows-gnu",
+    constraint_values = [
+        "prelude//cpu/constraints:x86_64",
+        "prelude//os/constraints:windows",
+        "prelude//abi/constraints:gnu",
+    ],
+    visibility = ["PUBLIC"],
+)
+
+platform(
+    name = "x86_64-pc-windows-msvc",
+    constraint_values = [
+        "prelude//cpu/constraints:x86_64",
+        "prelude//os/constraints:windows",
+        "prelude//abi/constraints:msvc",
+    ],
+    visibility = ["PUBLIC"],
+)
+
+platform(
+    name = "x86_64-unknown-linux-gnu",
+    constraint_values = [
+        "prelude//cpu/constraints:x86_64",
+        "prelude//os/constraints:linux",
+        "prelude//abi/constraints:gnu",
+    ],
+    visibility = ["PUBLIC"],
+)
