@@ -107,6 +107,16 @@ jobs:
     - name: Checkout source code
       uses: actions/checkout@v5
 
+    - name: Prepare Windows paths
+      if: runner.os == 'Windows'
+      shell: powershell
+      run: |
+        # Shorten rustup/cargo install roots to avoid MAX_PATH hits when buck2 is cloned by cargo
+        "CARGO_HOME=C:\\c" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+        "RUSTUP_HOME=C:\\r" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+        "CARGO_TARGET_DIR=C:\\t" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+        git config --global core.longpaths true
+
     - name: Install cross prerequisites
       if: matrix.setup != ''
       shell: bash
@@ -131,7 +141,7 @@ jobs:
       run: |
         rustup install nightly-2025-08-01
         cargo +nightly-2025-08-01 install --git https://github.com/facebook/buck2.git --rev c6bfcc629378a00921aa04597551442c9e2ea2eb buck2
-        "$env:USERPROFILE\\.cargo\\bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
+        "$env:CARGO_HOME\\bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
 
     - name: Buck2 build
       run: buck2 build //:fd --target-platforms //test/3rd/fd/platforms:${{ matrix.target }}
