@@ -143,6 +143,17 @@ jobs:
         cargo +nightly-2025-08-01 install --git https://github.com/facebook/buck2.git --rev c6bfcc629378a00921aa04597551442c9e2ea2eb buck2
         "$env:CARGO_HOME\\bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
 
+    - name: Show version information (Rust, cargo, GCC, Buck2)
+      shell: bash
+      run: |
+        gcc --version || true
+        rustup -V
+        rustup toolchain list
+        rustup default
+        cargo -V
+        rustc -V
+        buck2 --version || buck2 -V || true
+
     - name: Buck2 build
       run: buck2 build //:fd --target-platforms //platforms:${{ matrix.target }}
 
