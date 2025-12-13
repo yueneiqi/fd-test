@@ -111,10 +111,7 @@ jobs:
       if: runner.os == 'Windows'
       shell: powershell
       run: |
-        # Shorten rustup/cargo install roots to avoid MAX_PATH hits when buck2 is cloned by cargo
-        "CARGO_HOME=C:\\c" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
-        "RUSTUP_HOME=C:\\r" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
-        "CARGO_TARGET_DIR=C:\\t" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+        New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" -Name "LongPathsEnabled" -Value 1 -PropertyType DWORD -Force
         git config --global core.longpaths true
 
     - name: Install cross prerequisites
