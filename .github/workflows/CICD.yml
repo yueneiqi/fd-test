@@ -152,10 +152,10 @@ jobs:
         buck2 --version || buck2 -V || true
 
     - name: Buck2 build
-      run: buck2 build //:fd --target-platforms //platforms:${{ matrix.target }}
+      run: buck2 build //:fd --target-platforms buckal//config/platforms:${{ matrix.target }}
 
     - name: Buck2 test
-      run: buck2 test //... --target-platforms //platforms:${{ matrix.target }}
+      run: buck2 test //... --target-platforms buckal//config/platforms://platforms:${{ matrix.target }}
 
   build:
     name: ${{ matrix.job.target }} (${{ matrix.job.os }})
