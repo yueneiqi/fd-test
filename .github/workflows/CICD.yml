@@ -167,10 +167,20 @@ jobs:
         rustc -V
         buck2 --version || buck2 -V || true
 
+    - name: Buck2 build (windows-arm64 exec)
+      if: runner.os == 'Windows' && matrix.target == 'aarch64-pc-windows-msvc'
+      run: buck2 build //:fd --target-platforms buckal//config/platforms:${{ matrix.target }} -c build.execution_platforms=buckal//config/platforms:aarch64-pc-windows-msvc
+
     - name: Buck2 build
+      if: runner.os != 'Windows' || matrix.target != 'aarch64-pc-windows-msvc'
       run: buck2 build //:fd --target-platforms buckal//config/platforms:${{ matrix.target }}
 
+    - name: Buck2 test (windows-arm64 exec)
+      if: runner.os == 'Windows' && matrix.target == 'aarch64-pc-windows-msvc'
+      run: buck2 test //... --target-platforms buckal//config/platforms:${{ matrix.target }} -c build.execution_platforms=buckal//config/platforms:aarch64-pc-windows-msvc
+
     - name: Buck2 test
+      if: runner.os != 'Windows' || matrix.target != 'aarch64-pc-windows-msvc'
       run: buck2 test //... --target-platforms buckal//config/platforms:${{ matrix.target }}
 
   build:
