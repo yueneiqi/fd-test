@@ -10,6 +10,9 @@ on:
   push:
     branches:
       - main
+      - linux-gen
+      - macos-gen
+      - windows-gen
     tags:
       - '*'
 
