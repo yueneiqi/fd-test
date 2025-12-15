@@ -1,4 +1,0 @@
-target/
-/autocomplete/
-**/*.rs.bk
-/buck-out

@@ -1,0 +1,13 @@
+--env-set=CARGO_MANIFEST_DIR=D:\a\buckal_workspace\buckal_workspace\test\3rd\fd\buck-out\v2\gen\root\54ffe0299acc57a2\third-party\rust\crates\normpath\1.3.0\__normpath-vendor__\vendor
+--env-set=CARGO_MANIFEST_PATH=D:\a\buckal_workspace\buckal_workspace\test\3rd\fd\buck-out\v2\gen\root\54ffe0299acc57a2\third-party\rust\crates\normpath\1.3.0\__normpath-vendor__\vendor\Cargo.toml
+--env-set=CARGO_PKG_VERSION=1.3.0
+--env-set=CARGO_PKG_VERSION_MAJOR=1
+--env-set=CARGO_PKG_VERSION_MINOR=3
+--env-set=CARGO_PKG_VERSION_PATCH=0
+--env-set=CARGO_PKG_VERSION_PRE=
+--env-set=CARGO_PKG_AUTHORS=dylni
+--env-set=CARGO_PKG_NAME=normpath
+--env-set=CARGO_PKG_DESCRIPTION="More reliable path manipulation\n"
+--env-set=CARGO_PKG_HOMEPAGE=
+--env-set=CARGO_PKG_REPOSITORY=https://github.com/dylni/normpath
+--env-set=CARGO_PKG_RUST_VERSION=1.74.0

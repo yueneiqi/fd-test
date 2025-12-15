@@ -1,0 +1,15 @@
+{
+  "CARGO_MANIFEST_DIR": "D:\\a\\buckal_workspace\\buckal_workspace\\test\\3rd\\fd\\buck-out\\v2\\gen\\root\\54ffe0299acc57a2\\__fd-find-vendor__\\vendor",
+  "CARGO_MANIFEST_PATH": "D:\\a\\buckal_workspace\\buckal_workspace\\test\\3rd\\fd\\buck-out\\v2\\gen\\root\\54ffe0299acc57a2\\__fd-find-vendor__\\vendor\\Cargo.toml",
+  "CARGO_PKG_VERSION": "10.3.0",
+  "CARGO_PKG_VERSION_MAJOR": "10",
+  "CARGO_PKG_VERSION_MINOR": "3",
+  "CARGO_PKG_VERSION_PATCH": "0",
+  "CARGO_PKG_VERSION_PRE": "",
+  "CARGO_PKG_AUTHORS": "David Peter <mail@david-peter.de>",
+  "CARGO_PKG_NAME": "fd-find",
+  "CARGO_PKG_DESCRIPTION": "fd is a simple, fast and user-friendly alternative to find.",
+  "CARGO_PKG_HOMEPAGE": "https://github.com/sharkdp/fd",
+  "CARGO_PKG_REPOSITORY": "https://github.com/sharkdp/fd",
+  "CARGO_PKG_RUST_VERSION": "1.77.2"
+}

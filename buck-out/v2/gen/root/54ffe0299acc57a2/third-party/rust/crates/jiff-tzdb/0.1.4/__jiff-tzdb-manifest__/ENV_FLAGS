@@ -1,0 +1,13 @@
+--env-set=CARGO_MANIFEST_DIR=D:\a\buckal_workspace\buckal_workspace\test\3rd\fd\buck-out\v2\gen\root\54ffe0299acc57a2\third-party\rust\crates\jiff-tzdb\0.1.4\__jiff-tzdb-vendor__\vendor
+--env-set=CARGO_MANIFEST_PATH=D:\a\buckal_workspace\buckal_workspace\test\3rd\fd\buck-out\v2\gen\root\54ffe0299acc57a2\third-party\rust\crates\jiff-tzdb\0.1.4\__jiff-tzdb-vendor__\vendor\Cargo.toml
+--env-set=CARGO_PKG_VERSION=0.1.4
+--env-set=CARGO_PKG_VERSION_MAJOR=0
+--env-set=CARGO_PKG_VERSION_MINOR=1
+--env-set=CARGO_PKG_VERSION_PATCH=4
+--env-set=CARGO_PKG_VERSION_PRE=
+--env-set=CARGO_PKG_AUTHORS=Andrew Gallant <jamslam@gmail.com>
+--env-set=CARGO_PKG_NAME=jiff-tzdb
+--env-set=CARGO_PKG_DESCRIPTION="The entire Time Zone Database embedded into your binary."
+--env-set=CARGO_PKG_HOMEPAGE=https://github.com/BurntSushi/jiff/tree/master/crates/jiff-tzdb
+--env-set=CARGO_PKG_REPOSITORY=https://github.com/BurntSushi/jiff
+--env-set=CARGO_PKG_RUST_VERSION=1.70

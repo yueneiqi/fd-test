@@ -1,0 +1,15 @@
+{
+  "CARGO_MANIFEST_DIR": "D:\\a\\buckal_workspace\\buckal_workspace\\test\\3rd\\fd\\buck-out\\v2\\gen\\root\\54ffe0299acc57a2\\third-party\\rust\\crates\\bitflags\\2.9.1\\__bitflags-vendor__\\vendor",
+  "CARGO_MANIFEST_PATH": "D:\\a\\buckal_workspace\\buckal_workspace\\test\\3rd\\fd\\buck-out\\v2\\gen\\root\\54ffe0299acc57a2\\third-party\\rust\\crates\\bitflags\\2.9.1\\__bitflags-vendor__\\vendor\\Cargo.toml",
+  "CARGO_PKG_VERSION": "2.9.1",
+  "CARGO_PKG_VERSION_MAJOR": "2",
+  "CARGO_PKG_VERSION_MINOR": "9",
+  "CARGO_PKG_VERSION_PATCH": "1",
+  "CARGO_PKG_VERSION_PRE": "",
+  "CARGO_PKG_AUTHORS": "The Rust Project Developers",
+  "CARGO_PKG_NAME": "bitflags",
+  "CARGO_PKG_DESCRIPTION": "A macro to generate structures which behave like bitflags.\n",
+  "CARGO_PKG_HOMEPAGE": "https://github.com/bitflags/bitflags",
+  "CARGO_PKG_REPOSITORY": "https://github.com/bitflags/bitflags",
+  "CARGO_PKG_RUST_VERSION": "1.56.0"
+}

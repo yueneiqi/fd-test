@@ -1,0 +1,15 @@
+{
+  "CARGO_MANIFEST_DIR": "D:\\a\\buckal_workspace\\buckal_workspace\\test\\3rd\\fd\\buck-out\\v2\\gen\\root\\54ffe0299acc57a2\\third-party\\rust\\crates\\windows-targets\\0.52.6\\__windows-targets-vendor__\\vendor",
+  "CARGO_MANIFEST_PATH": "D:\\a\\buckal_workspace\\buckal_workspace\\test\\3rd\\fd\\buck-out\\v2\\gen\\root\\54ffe0299acc57a2\\third-party\\rust\\crates\\windows-targets\\0.52.6\\__windows-targets-vendor__\\vendor\\Cargo.toml",
+  "CARGO_PKG_VERSION": "0.52.6",
+  "CARGO_PKG_VERSION_MAJOR": "0",
+  "CARGO_PKG_VERSION_MINOR": "52",
+  "CARGO_PKG_VERSION_PATCH": "6",
+  "CARGO_PKG_VERSION_PRE": "",
+  "CARGO_PKG_AUTHORS": "Microsoft",
+  "CARGO_PKG_NAME": "windows-targets",
+  "CARGO_PKG_DESCRIPTION": "Import libs for Windows",
+  "CARGO_PKG_HOMEPAGE": "",
+  "CARGO_PKG_REPOSITORY": "https://github.com/microsoft/windows-rs",
+  "CARGO_PKG_RUST_VERSION": "1.56"
+}

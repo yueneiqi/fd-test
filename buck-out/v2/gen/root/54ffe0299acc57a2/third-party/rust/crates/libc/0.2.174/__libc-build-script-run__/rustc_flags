@@ -1,0 +1,2 @@
+--cfg=freebsd11
+--cfg=libc_const_extern_fn

@@ -1,0 +1,13 @@
+--env-set=CARGO_MANIFEST_DIR=D:\a\buckal_workspace\buckal_workspace\test\3rd\fd\buck-out\v2\gen\root\54ffe0299acc57a2\third-party\rust\crates\clap_complete\4.5.55\__clap_complete-vendor__\vendor
+--env-set=CARGO_MANIFEST_PATH=D:\a\buckal_workspace\buckal_workspace\test\3rd\fd\buck-out\v2\gen\root\54ffe0299acc57a2\third-party\rust\crates\clap_complete\4.5.55\__clap_complete-vendor__\vendor\Cargo.toml
+--env-set=CARGO_PKG_VERSION=4.5.55
+--env-set=CARGO_PKG_VERSION_MAJOR=4
+--env-set=CARGO_PKG_VERSION_MINOR=5
+--env-set=CARGO_PKG_VERSION_PATCH=55
+--env-set=CARGO_PKG_VERSION_PRE=
+--env-set=CARGO_PKG_AUTHORS=
+--env-set=CARGO_PKG_NAME=clap_complete
+--env-set=CARGO_PKG_DESCRIPTION="Generate shell completion scripts for your clap::Command"
+--env-set=CARGO_PKG_HOMEPAGE=
+--env-set=CARGO_PKG_REPOSITORY=https://github.com/clap-rs/clap
+--env-set=CARGO_PKG_RUST_VERSION=1.74
