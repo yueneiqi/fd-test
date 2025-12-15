@@ -1,4 +1,0 @@
---cfg=static_assertions
---cfg=linux_raw
---cfg=linux_like
---cfg=linux_kernel

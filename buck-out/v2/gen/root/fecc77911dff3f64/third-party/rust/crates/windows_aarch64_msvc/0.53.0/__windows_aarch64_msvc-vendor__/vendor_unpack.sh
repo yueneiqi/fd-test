@@ -1,3 +1,0 @@
-mkdir -p buck-out/v2/gen/root/fecc77911dff3f64/third-party/rust/crates/windows_aarch64_msvc/0.53.0/__windows_aarch64_msvc-vendor__/vendor
-cd buck-out/v2/gen/root/fecc77911dff3f64/third-party/rust/crates/windows_aarch64_msvc/0.53.0/__windows_aarch64_msvc-vendor__/vendor
-tar -z -x -f ../archive.tar.gz --strip-components=1 windows_aarch64_msvc-0.53.0
