@@ -1,1 +1,0 @@
--Lnative=$(abspath buck-out\v2\gen\root\54ffe0299acc57a2\third-party\rust\crates\windows_x86_64_gnu\0.52.6\__windows_x86_64_gnu-build-script-run__\cwd\lib)
