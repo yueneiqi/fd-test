@@ -1,0 +1,4 @@
+--cfg=static_assertions
+--cfg=libc
+--cfg=apple
+--cfg=bsd

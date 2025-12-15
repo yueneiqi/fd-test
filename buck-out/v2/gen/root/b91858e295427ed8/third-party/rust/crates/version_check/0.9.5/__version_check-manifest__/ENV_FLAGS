@@ -1,0 +1,13 @@
+--env-set=CARGO_MANIFEST_DIR=/Users/runner/work/buckal_workspace/buckal_workspace/test/3rd/fd/buck-out/v2/gen/root/b91858e295427ed8/third-party/rust/crates/version_check/0.9.5/__version_check-vendor__/vendor
+--env-set=CARGO_MANIFEST_PATH=/Users/runner/work/buckal_workspace/buckal_workspace/test/3rd/fd/buck-out/v2/gen/root/b91858e295427ed8/third-party/rust/crates/version_check/0.9.5/__version_check-vendor__/vendor/Cargo.toml
+--env-set=CARGO_PKG_VERSION=0.9.5
+--env-set=CARGO_PKG_VERSION_MAJOR=0
+--env-set=CARGO_PKG_VERSION_MINOR=9
+--env-set=CARGO_PKG_VERSION_PATCH=5
+--env-set=CARGO_PKG_VERSION_PRE=
+--env-set=CARGO_PKG_AUTHORS=Sergio Benitez <sb@sergio.bz>
+--env-set=CARGO_PKG_NAME=version_check
+--env-set=CARGO_PKG_DESCRIPTION="Tiny crate to check the version of the installed/running rustc."
+--env-set=CARGO_PKG_HOMEPAGE=
+--env-set=CARGO_PKG_REPOSITORY=https://github.com/SergioBenitez/version_check
+--env-set=CARGO_PKG_RUST_VERSION=

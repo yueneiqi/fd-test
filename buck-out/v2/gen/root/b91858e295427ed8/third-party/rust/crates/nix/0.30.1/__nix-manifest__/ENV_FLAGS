@@ -1,0 +1,13 @@
+--env-set=CARGO_MANIFEST_DIR=/Users/runner/work/buckal_workspace/buckal_workspace/test/3rd/fd/buck-out/v2/gen/root/b91858e295427ed8/third-party/rust/crates/nix/0.30.1/__nix-vendor__/vendor
+--env-set=CARGO_MANIFEST_PATH=/Users/runner/work/buckal_workspace/buckal_workspace/test/3rd/fd/buck-out/v2/gen/root/b91858e295427ed8/third-party/rust/crates/nix/0.30.1/__nix-vendor__/vendor/Cargo.toml
+--env-set=CARGO_PKG_VERSION=0.30.1
+--env-set=CARGO_PKG_VERSION_MAJOR=0
+--env-set=CARGO_PKG_VERSION_MINOR=30
+--env-set=CARGO_PKG_VERSION_PATCH=1
+--env-set=CARGO_PKG_VERSION_PRE=
+--env-set=CARGO_PKG_AUTHORS=The nix-rust Project Developers
+--env-set=CARGO_PKG_NAME=nix
+--env-set=CARGO_PKG_DESCRIPTION="Rust friendly bindings to *nix APIs"
+--env-set=CARGO_PKG_HOMEPAGE=
+--env-set=CARGO_PKG_REPOSITORY=https://github.com/nix-rust/nix
+--env-set=CARGO_PKG_RUST_VERSION=1.69

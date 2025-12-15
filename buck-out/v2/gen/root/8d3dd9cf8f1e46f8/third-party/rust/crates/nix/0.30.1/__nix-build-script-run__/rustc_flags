@@ -1,0 +1,3 @@
+--cfg=macos
+--cfg=apple_targets
+--cfg=bsd
