@@ -1,0 +1,12 @@
+prefix=/home/runner/work/buckal_workspace/buckal_workspace/test/3rd/fd/buck-out/v2/gen/root/fecc77911dff3f64/third-party/rust/crates/tikv-jemalloc-sys/0.6.0+5.3.0-1-ge13ca993e8ccb9ba9847cc330696e02839f328f7/__tikv-jemalloc-sys-build-script-run__/OUT_DIR
+exec_prefix=/home/runner/work/buckal_workspace/buckal_workspace/test/3rd/fd/buck-out/v2/gen/root/fecc77911dff3f64/third-party/rust/crates/tikv-jemalloc-sys/0.6.0+5.3.0-1-ge13ca993e8ccb9ba9847cc330696e02839f328f7/__tikv-jemalloc-sys-build-script-run__/OUT_DIR
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+install_suffix=
+
+Name: jemalloc
+Description: A general purpose malloc(3) implementation that emphasizes fragmentation avoidance and scalable concurrency support.
+URL: http://jemalloc.net/
+Version: 5.3.0_1
+Cflags: -I${includedir}
+Libs: -L${libdir} -ljemalloc${install_suffix}

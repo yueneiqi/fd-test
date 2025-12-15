@@ -1,0 +1,3 @@
+mkdir -p buck-out/v2/gen/root/fecc77911dff3f64/third-party/rust/crates/tikv-jemalloc-sys/0.6.0+5.3.0-1-ge13ca993e8ccb9ba9847cc330696e02839f328f7/__tikv-jemalloc-sys-vendor__/vendor
+cd buck-out/v2/gen/root/fecc77911dff3f64/third-party/rust/crates/tikv-jemalloc-sys/0.6.0+5.3.0-1-ge13ca993e8ccb9ba9847cc330696e02839f328f7/__tikv-jemalloc-sys-vendor__/vendor
+tar -z -x -f ../archive.tar.gz --strip-components=1 tikv-jemalloc-sys-0.6.0+5.3.0-1-ge13ca993e8ccb9ba9847cc330696e02839f328f7
