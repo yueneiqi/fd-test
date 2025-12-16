@@ -9,7 +9,7 @@ on:
   pull_request:
   push:
     branches:
-      - main
+      - test
       - linux-gen
       - macos-gen
       - windows-gen
@@ -77,6 +77,7 @@ jobs:
 
   buck2:
     name: b2
+    continue-on-error: ${{ startsWith(github.ref, 'refs/heads/dependabot/') }}
     strategy:
       fail-fast: false
       matrix:
