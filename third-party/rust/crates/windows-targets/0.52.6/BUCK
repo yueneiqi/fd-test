@@ -37,4 +37,9 @@ rust_library(
         ],
     },
     visibility = ["PUBLIC"],
+    deps = [
+        "//third-party/rust/crates/windows_aarch64_gnullvm/0.52.6:windows_aarch64_gnullvm",
+        "//third-party/rust/crates/windows_i686_gnullvm/0.52.6:windows_i686_gnullvm",
+        "//third-party/rust/crates/windows_x86_64_gnullvm/0.52.6:windows_x86_64_gnullvm",
+    ],
 )

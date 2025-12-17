@@ -45,6 +45,8 @@ rust_library(
     deps = [
         "//third-party/rust/crates/jiff-static/0.2.15:jiff-static",
         "//third-party/rust/crates/log/0.4.27:log",
+        "//third-party/rust/crates/portable-atomic-util/0.2.4:portable-atomic-util",
+        "//third-party/rust/crates/portable-atomic/1.11.1:portable-atomic",
         "//third-party/rust/crates/serde/1.0.219:serde",
     ],
 )
