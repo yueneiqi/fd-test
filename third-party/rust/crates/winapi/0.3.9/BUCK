@@ -46,6 +46,7 @@ rust_library(
         "windows": ["//third-party/rust/crates/winapi-x86_64-pc-windows-gnu/0.4.0:winapi-x86_64-pc-windows-gnu"],
     },
     visibility = ["PUBLIC"],
+    deps = ["//third-party/rust/crates/winapi-i686-pc-windows-gnu/0.4.0:winapi-i686-pc-windows-gnu"],
 )
 
 rust_binary(
