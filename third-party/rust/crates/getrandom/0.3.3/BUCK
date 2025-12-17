@@ -35,7 +35,11 @@ rust_library(
         "macos": ["//third-party/rust/crates/libc/0.2.174:libc"],
     },
     visibility = ["PUBLIC"],
-    deps = ["//third-party/rust/crates/cfg-if/1.0.1:cfg-if"],
+    deps = [
+        "//third-party/rust/crates/cfg-if/1.0.1:cfg-if",
+        "//third-party/rust/crates/r-efi/5.3.0:r-efi",
+        "//third-party/rust/crates/wasi/0.14.2+wasi-0.2.4:wasi",
+    ],
 )
 
 rust_binary(
